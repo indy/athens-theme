@@ -30,6 +30,7 @@
 
 (deftheme athens)
 (let ((class '((class color) (min-colors 89)))
+      (bg0 "#000000")
       (bg1 "#1c1b19")
       (bg2 "#242320")
       (bg3 "#2c2b28")
@@ -75,14 +76,14 @@
 
    'athens
 
-   `(default           ((,class (:foreground ,fg1 :background ,bg1))))
+   `(default           ((,class (:foreground ,fg1 :background ,bg0))))
    `(bold              ((,class (:weight bold))))
    `(bold-italic       ((,class (:weight bold :slant italic))))
    `(cursor            ((,class (:background ,cursor))))
    `(default-italic    ((,class (:italic t))))
    `(error             ((,class (:foreground ,error))))
    `(ffap              ((,class (:foreground ,fg4))))
-   `(fringe            ((,class (:foreground ,fg4 :background ,bg1))))
+   `(fringe            ((,class (:foreground ,fg4 :background ,bg0))))
    `(highlight         ((,class (:foreground ,fg3 :background ,bg3))))
    `(hl-line           ((,class (:background  ,bg2))))
    `(italic            ((,class (:slant italic))))
@@ -97,16 +98,16 @@
    `(match             ((,class (:foreground ,bg1 :background ,hi1))))
    `(widget-field      ((,class (:foreground ,hi1 :background ,bg2)))) ; M-x customize
 
-   `(mmm-default-submode-face ((,class (:background ,bg1))))
+   `(mmm-default-submode-face ((,class (:background ,bg0))))
    `(vhl/default-face ((,class (:foreground ,hi1 :background ,bg4))))
 
 
    `(mode-line           ((,class (:foreground ,fg2 :background ,modeline :bold nil :box (:line-width 1 :color ,bg2 :style none)))))
    `(mode-line-buffer-id ((,class (:foreground ,fg1 :background nil :bold nil))))
    `(mode-line-highlight ((,class (:background ,bg4)))) ;; ???
-   `(mode-line-inactive  ((,class (:foreground ,fg4 :background ,bg1 :box (:line-width 1 :color ,bg2 :style none))))) ; ???
+   `(mode-line-inactive  ((,class (:foreground ,fg4 :background ,bg0 :box (:line-width 1 :color ,bg2 :style none))))) ; ???
 
-   `(spaceline-highlight-face ((,class (:foreground ,bg1 :background ,cursor))))
+   `(spaceline-highlight-face ((,class (:foreground ,bg0 :background ,cursor))))
    `(powerline-active1 ((,class (:foreground ,fg1 :background ,active1))))
    `(powerline-active2 ((,class (:foreground ,fg1 :background ,active2))))
 
@@ -138,10 +139,10 @@
    `(ivy-minibuffer-match-face-3 ((,class (:foreground ,hi2))))
    `(ivy-minibuffer-match-face-4 ((,class (:foreground ,hi2))))
 
-   ;`(ivy-confirm-face ((,class (:foreground ,hi2))))
-   ;`(ivy-match-required-face ((,class (:foreground ,hi4))))
-   ;`(ivy-virtual ((,class (:foreground ,hi4))))
-   ;`(ivy-action ((,class (:foreground ,hi4))))
+                                        ;`(ivy-confirm-face ((,class (:foreground ,hi2))))
+                                        ;`(ivy-match-required-face ((,class (:foreground ,hi4))))
+                                        ;`(ivy-virtual ((,class (:foreground ,hi4))))
+                                        ;`(ivy-action ((,class (:foreground ,hi4))))
 
    `(company-tooltip            ((,class (:background ,bg3 :inherit default))))
    `(company-scrollbar-bg       ((,class (:background  ,bg3))))
@@ -240,7 +241,7 @@
    `(org-agenda-date-today     ((,class (:weight bold :foreground ,keyword :height 1.4))))
    `(org-agenda-date-weekend   ((,class (:weight normal :foreground ,fg4))))
    `(org-agenda-structure      ((,class (:weight bold :foreground ,fg3 :box (:color ,fg4) :background ,bg3))))
-   `(org-block                 ((,class (:foreground ,fg1 :background ,bg1))))
+   `(org-block                 ((,class (:foreground ,fg1 :background ,bg0))))
    `(org-block-begin-line      ((,class (:foreground ,fg4 :background ,bg2))))
    `(org-block-end-line        ((,class (:foreground ,fg4 :background ,bg2))))
    `(org-code                  ((,class (:foreground ,fg2))))
@@ -283,7 +284,7 @@
    `(sp-show-pair-match-face ((,class (:background ,success))))
    `(sp-show-pair-mismatch-face ((,class (:background ,error))))
 
-   `(vterm-color-default ((,class (:foreground ,fg1 :background ,bg1))))
+   `(vterm-color-default ((,class (:foreground ,fg1 :background ,bg0))))
    `(vterm-color-black ((,class (:foreground ,bg2 :background ,bg2))))
    `(vterm-color-red ((,class (:foreground ,clock10 :background ,clock10))))
    `(vterm-color-green ((,class (:foreground ,clock02 :background ,clock02))))
