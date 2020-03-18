@@ -102,8 +102,8 @@
    `(vhl/default-face ((,class (:foreground ,hi1 :background ,bg4))))
 
 
-   `(mode-line           ((,class (:foreground ,fg2 :background ,modeline :bold nil :box (:line-width 1 :color ,bg2 :style none)))))
-   `(mode-line-buffer-id ((,class (:foreground ,fg1 :background nil :bold nil))))
+   `(mode-line           ((,class (:foreground ,bg1 :background ,clock11 :bold nil :box (:line-width 1 :color ,bg2 :style none)))))
+   `(mode-line-buffer-id ((,class (:foreground ,bg0 :distant-foreground ,fg1 :background nil :bold nil))))
    `(mode-line-highlight ((,class (:background ,bg4)))) ;; ???
    `(mode-line-inactive  ((,class (:foreground ,fg4 :background ,bg0 :box (:line-width 1 :color ,bg2 :style none))))) ; ???
 
