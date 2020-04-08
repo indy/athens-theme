@@ -63,14 +63,14 @@
       (warning "#c36000")
       (success "#00b953")
       (var "#958f88")
-      (func "#d04834")
-      (builtin "#529ba1")
-      (keyword "#529ba1")
-      (const "#529ba1")
-      (comment "#3b7375")
-      (str "#4da161")
-      (type "#af8a4d")
-      (preprocessor "#2da092"))
+      (func "#c84e3f")
+      (builtin "#5f999f")
+      (keyword "#5f999f")
+      (const "#5f999f")
+      (comment "#447173")
+      (str "#5a9f69")
+      (type "#ab8b59")
+      (preprocessor "#429e92"))
 
   (custom-theme-set-faces
 
