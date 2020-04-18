@@ -30,7 +30,7 @@
 
 (deftheme athens)
 (let ((class '((class color) (min-colors 89)))
-      (bg0 "#000000")
+      (bg0 "#011619")
       (bg1 "#1c1b19")
       (bg2 "#242320")
       (bg3 "#2c2b28")
