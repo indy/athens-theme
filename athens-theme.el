@@ -89,7 +89,7 @@
    `(italic            ((,class (:slant italic))))
    `(link              ((,class (:foreground ,const :underline t))))
    `(minibuffer-prompt ((,class (:foreground ,hi2 :bold t))))
-   `(region            ((,class (:foreground ,bg1 :background ,fg1))))
+   `(region            ((,class (:foreground ,bg1 :background ,clock10))))
    `(shadow            ((,class (:foreground ,fg3))))
    `(success           ((,class (:foreground ,success))))
    `(underline         ((,class (:underline t))))
