@@ -59,8 +59,8 @@
       (clock11 "#bf8259")
       (hi1 "#b0b037")
       (hi2 "#3bbdac")
-      (error "#f7002c")
-      (warning "#c36000")
+      (error "#c8575c");;
+      (warning "#817c55")
       (success "#00b953")
       (var "#958f88")
       (func "#b65a52")
