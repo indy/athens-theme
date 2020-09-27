@@ -281,7 +281,7 @@
 
    `(slime-repl-inputed-output-face ((,class (:foreground ,type))))
 
-   `(sp-show-pair-match-face ((,class (:background ,success))))
+   `(sp-show-pair-match-face ((,class (:background ,active2))))
    `(sp-show-pair-mismatch-face ((,class (:background ,error))))
 
    `(vterm-color-default ((,class (:foreground ,fg1 :background ,bg0))))
