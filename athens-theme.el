@@ -28,6 +28,8 @@
 
 ;;; Code:
 
+;; clock12 == HSLuv(67.1, 60.2, 59.7)
+;;
 (deftheme athens)
 (let ((class '((class color) (min-colors 89)))
       (bg0 "#090909") ;; manually darkened
