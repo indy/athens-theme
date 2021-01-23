@@ -270,6 +270,8 @@
    `(org-verse                 ((,class (:inherit org-block :slant italic))))
    `(org-warning               ((,class (:underline t :foreground ,warning))))
 
+   `(pulse-highlight-start-face ((,class (:background ,cursor))))
+
    `(rainbow-delimiters-depth-1-face   ((,class :foreground ,clock12)))
    `(rainbow-delimiters-depth-2-face   ((,class :foreground ,clock01)))
    `(rainbow-delimiters-depth-3-face   ((,class :foreground ,clock02)))
