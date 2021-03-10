@@ -130,6 +130,44 @@
    `(font-lock-variable-name-face ((,class (:foreground ,var))))
    `(font-lock-warning-face       ((,class (:foreground ,warning :background ,bg2))))
 
+   ;; tree-sitter-hl-face:attribute
+   ;; tree-sitter-hl-face:comment
+   ;; tree-sitter-hl-face:constant
+   ;; tree-sitter-hl-face:constant.builtin
+   ;; tree-sitter-hl-face:constructor
+   ;; tree-sitter-hl-face:doc
+   ;; tree-sitter-hl-face:embedded
+   ;; tree-sitter-hl-face:escape
+   ;; tree-sitter-hl-face:function
+   ;; tree-sitter-hl-face:function.builtin
+   `(tree-sitter-hl-face:function.call ((,class (:foreground ,fg1))))
+   ;; tree-sitter-hl-face:function.macro
+   ;; tree-sitter-hl-face:function.special
+   ;; tree-sitter-hl-face:keyword
+   ;; tree-sitter-hl-face:label
+   ;; tree-sitter-hl-face:method
+   ;; tree-sitter-hl-face:method.call
+   `(tree-sitter-hl-face:number ((,class (:foreground ,fg1))))
+   `(tree-sitter-hl-face:operator ((,class (:foreground ,fg1))))
+   `(tree-sitter-hl-face:property ((,class (:foreground ,fg1))))
+   ;; tree-sitter-hl-face:property.definition
+   ;; tree-sitter-hl-face:punctuation
+   ;; tree-sitter-hl-face:punctuation.bracket
+   ;; tree-sitter-hl-face:punctuation.delimiter
+   ;; tree-sitter-hl-face:punctuation.special
+   ;; tree-sitter-hl-face:string
+   ;; tree-sitter-hl-face:string.special
+   ;; tree-sitter-hl-face:tag
+   ;; tree-sitter-hl-face:type
+   ;; tree-sitter-hl-face:type.argument
+   ;; tree-sitter-hl-face:type.builtin
+   ;; tree-sitter-hl-face:type.parameter
+   ;; tree-sitter-hl-face:type.super
+   ;; tree-sitter-hl-face:variable
+   ;; tree-sitter-hl-face:variable.builtin
+   ;; tree-sitter-hl-face:variable.parameter
+   `(tree-sitter-hl-face:variable.special ((,class (:foreground ,preprocessor))))
+
    ;; hi-yellow is used by highlight-thing
    `(hi-yellow ((,class (:foreground ,bg1 :background ,hi1))))
 
