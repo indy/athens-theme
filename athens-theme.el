@@ -91,13 +91,13 @@
    `(italic            ((,class (:slant italic))))
    `(link              ((,class (:foreground ,const :underline t))))
    `(minibuffer-prompt ((,class (:foreground ,hi2 :bold t))))
-   `(region            ((,class (:foreground ,bg1 :background ,clock10))))
+   `(region            ((,class (:foreground ,bg1 :background ,cursor))))
    `(shadow            ((,class (:foreground ,fg3))))
    `(success           ((,class (:foreground ,success))))
    `(underline         ((,class (:underline t))))
    `(vertical-border   ((,class (:foreground ,fg3))))
    `(warning           ((,class (:foreground ,warning))))
-   `(match             ((,class (:foreground ,bg1 :background ,hi1))))
+   `(match             ((,class (:foreground ,bg1 :background ,cursor))))
    `(widget-field      ((,class (:foreground ,hi1 :background ,bg2)))) ; M-x customize
 
    `(mmm-default-submode-face ((,class (:background ,bg0))))
